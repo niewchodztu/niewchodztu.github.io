@@ -1,0 +1,89 @@
+body {
+  background-color: #eee ;  
+  font-family: monospace;
+  margin: 0 auto;
+}
+* {
+    margin: 0 auto;
+}
+.wrapper {
+
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .typing-demo {
+    width: 25ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+  span {
+    color: red;
+  }
+  h1 {
+    font-family: monospace;
+    font-size: 5em;
+    text-align: center;
+    padding: 0.5em;
+ 
+  }
+  h2 {
+    margin-top: 200px;
+    font-family: monospace;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  .footer {
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.5rem;
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .disclaimer {
+font-size: 11px;
+  margin-top: 50px;
+  }
+
+  
+ #timer {
+    color: red;
+    text-align: center;
+    font-size: 70px;
+    height: 10px;
+    margin-top: 8%;
+  }
+  
+p.info {
+margin-top: 100px;
+    font-family: monospace;
+    font-size: 1.5em;
+    text-align: center;
+padding: 60px;
+}
+
+footer {
+  margin-top: 200px;
+}
